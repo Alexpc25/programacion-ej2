@@ -1,19 +1,6 @@
 import random 
 numero = random.randint (0,99)
 
-print ("Elija un numero del 0 al 99 para adivinar")
-
-while True: 
-    numero = input ("Introduzca un numero entre el 0 y el 99 incluidos: ")
-
-    try: 
-        numero = int (numero)
-    except: 
-        pass 
-    else: 
-        if 0 <= numero <= 99:
-
-            break 
 
 print ("Intente adivinar el numero")
 
