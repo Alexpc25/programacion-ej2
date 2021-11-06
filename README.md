@@ -11,12 +11,8 @@ No he conseguido que me funcione los if de si el intento elejido es demasiado pe
 
 import random 
 numero = random.randint (0,99)
-
-
 print ("Intente adivinar el numero")
-
 while True:
-
     while True:
         intento = input ("Introduzca un numero entre el 0 y el 99 incluidos ")
 
