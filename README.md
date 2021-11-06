@@ -9,9 +9,11 @@ El diagrama de flujo del codigo realizado, es el siguiente:
 No he conseguido que me funcione los if de si el intento elejido es demasiado pequeño o grande, me daba error en los símbolos (<>). Por eso he hecho otra versión en la que el if corresponde a si el intento = numero (generado aleatoriamente). 
 
 
-import random 
+```import random 
 numero = random.randint (0,99)
+
 print ("Intente adivinar el numero")
+
 while True:
     while True:
         intento = input ("Introduzca un numero entre el 0 y el 99 incluidos ")
